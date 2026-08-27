@@ -24,7 +24,7 @@ import ClientBlockListener from "./components/ClientBlockListener";
 import { getCurrentUserId } from "./utils/orderId";
 
 // export const api_route = "http://localhost:8080";
-export const api_route = "https://test-ser-production.up.railway.app";
+export const api_route = "https://tmn-kse-production.up.railway.app";
 export const socket = io(api_route);
 
 export function getKeysWithTrueValue(obj) {
